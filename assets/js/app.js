@@ -14589,7 +14589,7 @@ window.$ = _jquery2.default;
 
 window.libs = _dependancies2.default;
 
-(0, _jquery2.default)(document).foundation();
+// $(document).foundation();
 
 _dependancies2.default.AOS.init();
 
