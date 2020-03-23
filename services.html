@@ -9,8 +9,11 @@
     <meta name="keywords" content="LCSW,CADC,Westrbook LCSW,Westbrook therapist,Erica Green,Clinical Social Worker,Therapist,Certified Alcohol and Drug Counselor,Southern Maine therapy services,Greater Portland counseling, teen social worker">
     <title>Erica N. Green, LCSW/CADC</title>
     <link rel="stylesheet" href="assets/css/app.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
-      rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="sweetalert2.all.min.js"></script>
+    <!-- Optional: include a polyfill for ES6 Promises for IE11 -->
+    <script src="https://cdn.jsdelivr.net/npm/promise-polyfill"></script>
   </head>
   <body class="services default">
 
@@ -208,5 +211,12 @@
     </div>
 
     <script src="assets/js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script>
+      Swal.fire({
+        text: 'Due to COVID-19 I am currently offering sessions via a HIPAA compliant video conferencing platform called Doxy.me at https://doxy.me/.',
+        confirmButtonText: 'OK'
+      })
+    </script>
   </body>
 </html>
